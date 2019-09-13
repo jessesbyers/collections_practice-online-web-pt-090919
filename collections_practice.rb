@@ -44,3 +44,12 @@ end
 def sum_array(array)
   array.sum
 end
+
+def add_s(array)
+  array.collect do |word|
+    if array[word] != array[1]
+    word = word.join("s")
+  end
+end
+array
+end
