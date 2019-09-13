@@ -1,3 +1,7 @@
 def sort_array_asc(array)
   array.sort
-each_with_index
+end
+
+def sort_array_desc(array)
+  array.sort.reverse_array
+end
