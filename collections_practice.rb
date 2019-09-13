@@ -11,3 +11,10 @@ def sort_array_char_count(array)
     x.length <=> y.length
   end
 end
+
+def swap_elements(array)
+  array.sort do |x,y|
+    x = array[1]
+    y = array[2]
+  end
+end
