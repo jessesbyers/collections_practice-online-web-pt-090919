@@ -13,8 +13,6 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-    array.each do |name|
-    name[1],name[2] = name[2], name[1]
-  end
+    array[1],array[2] = array[2], array[1]
     array
 end
