@@ -47,8 +47,6 @@ end
 
 def add_s(array)
   array.collect do |word|
-    binding.pry
-
     if word != array[1]
     word = word.join("s")
   end
