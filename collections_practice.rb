@@ -15,5 +15,6 @@ end
 def swap_elements(array)
   array.sort do |array[1],array[2]|
     array[1],array[2] = array[2],array[1]
-    puts array
+  end
+    array
 end
