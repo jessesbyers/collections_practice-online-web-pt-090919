@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort
 end
@@ -28,6 +30,7 @@ end
 def kesha_maker(array)
   array.each do |word|
     word.sub(/[2]/, "$")
+    binding.pry
   end
   array
 end
