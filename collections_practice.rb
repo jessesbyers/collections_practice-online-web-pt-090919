@@ -29,7 +29,7 @@ end
 
 def kesha_maker(array)
   array.each do |word|
-    word.sub(/[2]/, "$")
+    word.tr(array[2], "$")
     binding.pry
   end
   array
