@@ -14,5 +14,4 @@ end
 
 def swap_elements(array)
   array[1].sort(array[2])
-  end
 end
