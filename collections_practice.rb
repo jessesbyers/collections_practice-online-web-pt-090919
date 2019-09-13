@@ -28,9 +28,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  new_array = []
   array.each do |word|
-    word.tr(array[2], "$")
+    new_array << word.tr(array[2], "$")
     binding.pry
   end
-  array
+  new_array
 end
